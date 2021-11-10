@@ -20,4 +20,6 @@ const bicicleta = {
     marca: "KTM"
 }
 
-document.getElementById("valoresBici").innerHTML = bicicleta.marca;
+document.getElementById("valoresBici1").innerHTML = `Rodado: ${bicicleta.rodado}`
+document.getElementById("valoresBici2").innerHTML = `Color: ${bicicleta.color}`
+document.getElementById("valoresBici3").innerHTML = `Marca: ${bicicleta.marca}`
