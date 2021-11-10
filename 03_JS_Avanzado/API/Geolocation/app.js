@@ -7,3 +7,7 @@ function getLocation() {
         x.innerHTML = err;
     }
 }
+
+function showPosition(position) {
+    x.innerHTML = `Latitud: ${position.coords.latitude} `
+}
