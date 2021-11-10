@@ -7,3 +7,14 @@ function validateform() {
     }
 }
 
+/******* VALIDACION DE CAMPOS NUMERICOS *******/
+function numbers() {
+    let x = document.getElementById("number").value;
+    let text;
+    if(isNaN(x) || x < 1 || x > 10) {
+        text = "El input no esta OK";
+    } else {
+        text = "El input esta OK";
+    }
+    document.getElementById("validacionNumero").innerHTML = text;
+}
